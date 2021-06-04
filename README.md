@@ -42,6 +42,7 @@ All synths are trigged in the callbacks of OSC receiving functions.
 - Uses should be able to change the volumes, but I have no idea how I can avoid blowing speakers.
 - The release action should be possibly applied to a specific sound.
 - Codes should be cleaned: `if` to `switch` or `case`.
+- No idea why some released Synths with `doneAction: freeSelf` are not removed from the Node Tree successfully.
 - It is a bit tricky to avoid conflict between build-in shortcuts and the control keys.
 - The change of the background color of Rage Pad can be smoother.
 
