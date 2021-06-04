@@ -1,5 +1,5 @@
-#N struct 1005-rectangle float x float c;
-#N struct 1005-pixel float x0 float y0 float x1 float y1;
+#N struct 1011-rectangle float x float c;
+#N struct 1011-pixel float x0 float y0 float x1 float y1;
 #N canvas -9 -9 1920 976 12;
 #X obj 184 157 rage-pad;
 #X text 192 107 Use headphones for better experience.;
@@ -8,10 +8,7 @@
 0;
 #X text 673 118 Requirements:;
 #X text 675 276 Instruction:;
-#X text 676 303 Try to click on the pad to play a simple note.;
 #X text 673 148 SuperCollider: Run bakcend.scd;
-#X text 674 171 PureData: Make sure the following files exist in the
-cuurent directory.;
 #X text 674 208 1 rage-pad.pd;
 #X text 675 229 2 xy.pd;
 #X text 675 252 ============================================================
@@ -46,4 +43,7 @@ the performing effect or sustain it \, otherwise \, new clicks will
 trigger a normal sound.;
 #X text 680 539 S (slide) \, R (vibrato) and T (tremolo) work exclusively.
 ;
-#X connect 25 0 0 0;
+#X text 674 171 PureData: Make sure the following files exist in the
+current directory.;
+#X text 676 303 Try to click on the pad to play a simple sound.;
+#X connect 23 0 0 0;
