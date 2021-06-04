@@ -1,0 +1,49 @@
+#N struct 1005-rectangle float x float c;
+#N struct 1005-pixel float x0 float y0 float x1 float y1;
+#N canvas -9 -9 1920 976 12;
+#X obj 184 157 rage-pad;
+#X text 192 107 Use headphones for better experience.;
+#X text 323 365 Pitch;
+#X obj 639 82 cnv 15 500 630 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X text 673 118 Requirements:;
+#X text 675 276 Instruction:;
+#X text 676 303 Try to click on the pad to play a simple note.;
+#X text 673 148 SuperCollider: Run bakcend.scd;
+#X text 674 171 PureData: Make sure the following files exist in the
+cuurent directory.;
+#X text 674 208 1 rage-pad.pd;
+#X text 675 229 2 xy.pd;
+#X text 675 252 ============================================================
+;
+#X text 679 462 Go ahead and play!;
+#X text 679 387 Press and hold Space \, and click to sustain the sound.
+;
+#X text 681 654 BY Zezhe Huang zezhe@kth.se;
+#X text 680 513 Tips:;
+#X text 681 560 Keep quiet to lower the randomicity.;
+#X text 680 579 Turn up the volume of your device if it is not loud
+enough.;
+#X text 678 486 ============================================================
+;
+#X text 681 635 https://github.com/kiki0805/rage-pad;
+#X text 192 88 Welcome to the Rage-Pad!;
+#X text 678 323 Press and hold S \, and click to perform a slide effect.
+;
+#X text 679 366 Press and hold T \, and click to perform a tremolo
+effect.;
+#X text 114 230 Duration;
+#X text 87 251 Release Time;
+#X obj 127 142 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X text 81 140 Reset;
+#X text 680 600 If there is anything broken \, try to click Reset.
+;
+#X text 678 345 Press and hold R \, and click to perform a vibrato
+effect.;
+#X text 679 408 Press and hold A \, and click to add a new sound with
+the performing effect or sustain it \, otherwise \, new clicks will
+trigger a normal sound.;
+#X text 680 539 S (slide) \, R (vibrato) and T (tremolo) work exclusively.
+;
+#X connect 25 0 0 0;
