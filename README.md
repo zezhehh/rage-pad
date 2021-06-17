@@ -1,3 +1,8 @@
+ONLY TESTED ON WINDOWS10.
+
+SuperCollider 3.11.2
+Pd version 0.51.3
+
 # Rage Pad
 
 *You can never play a same melody.*
